@@ -1,21 +1,21 @@
-@import 'xydark/codeblock.dark.css';
+@import 'greenmachine/codeblock.dark.css';
 @import 'night/mermaid.dark.css';
-@import 'xydark/sourcemode.dark.css';
+@import 'greenmachine/sourcemode.dark.css';
 @import 'xylight.css';
 
 :root {
-  --accented-background-color: #464b5d;
-  --light-header-color: #a5a7bd; /* H1-H3 */
-  --select-text-bg-color: #295080;
-  --accent-color: rgb(120, 124, 136);
-  --dark-accent-color: #464b5d;
-  --background-color: #0f111a;
-  --font-color: #8f93a2;
-  --header-color: #eeffff; /* H4-H6 */
-  --border-color: #232629;
-  --link-color: #6699cc;
-  --code-bg-color: #0c1420;
-  --hover-bg-color: #050505;
+  --accented-background-color: #222222;
+  --light-header-color: #e0e0e0; /* H1-H3 */
+  --select-text-bg-color: #4bc98a;
+  --accent-color: #4bc98a;
+  --dark-accent-color: #222222;
+  --background-color: #111111;
+  --font-color: #e0e0e0;
+  --header-color: #4bc98a; /* H4-H6 */
+  --border-color: #111111;
+  --link-color: #4bc98a;
+  --code-bg-color: #222222;
+  --hover-bg-color: #111111;
   --control-text-color: var(--font-color);
   --side-bar-bg-color: var(--background-color);
   --control-text-hover-color: var(--header-color);
@@ -26,7 +26,8 @@
   --meta-content-color: var(--accent-color);
   --md-char-color: var(--accent-color);
   --window-border: 0px solid rgba(0, 0, 0, 0);
-  --active-file-bg-color: var(--hover-bg-color);
+  --active-file-bg-color: #4bc98a;
+  --active-file-text-color: #111111;
   --rawblock-edit-panel-bd: var(--code-background-color);
 }
 
@@ -57,12 +58,13 @@ h6 {
 }
 
 mark {
-  background: #b8b80a;
+  background: #4bc98a;
+  color: #111111;
 }
 
 table tr:nth-child(2n),
 thead {
-  background-color: #141313;
+  background-color: #111111;
 }
 
 sup.md-footnote {
@@ -81,7 +83,7 @@ thead {
 }
 
 .md-url {
-  color: #c594c5;
+  color: #4bc98a;
 }
 
 /* UI */
@@ -95,7 +97,7 @@ footer.ty-footer {
 }
 
 .cm-s-typora-default .CodeMirror-activeline-background {
-  background-color: #181c2d;
+  background-color: #111111;
 }
 
 /* Code */
@@ -103,7 +105,7 @@ footer.ty-footer {
 code,
 .md-fences {
   padding: 0.5em;
-  background: #0f111a;
+  background: #222222;
   /* border: 1px solid #ccc; */
   padding: 0.1em;
   font-size: 0.9em;
@@ -117,11 +119,11 @@ code,
 
 /* right click menu */
 .context-menu {
-  background-color: #141313;
+  background-color: #222222;
 }
 
 .context-menu.dropdown-menu .divider {
-  background-color: #232629;
+  background-color: #222222;
 }
 
 /* focus mode */
