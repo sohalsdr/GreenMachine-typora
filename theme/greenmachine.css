@@ -48,6 +48,11 @@ h6 {
   color: var(--light-header-color);
 }
 
+strong {
+  font-weight: bold;
+  color: #4bc98a;
+}
+
 @media (min-width: 980px) {
   h3.md-focus:before,
   h4.md-focus:before,
